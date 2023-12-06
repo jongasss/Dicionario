@@ -1,0 +1,439 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+#div1 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div2 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div3 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div4 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div5 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div6 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div7 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div8 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div9 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+.div10 {
+    border: solid 5px;
+    border-radius: 15px;
+    border-color: lightgray;
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 20px;
+    width: 7vw;
+}
+
+#div1:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div2:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div3:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div4:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div5:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div6:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div7:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div8:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div9:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+
+.div10:hover {
+    transition: 100ms;
+    transform: scale(1.06);
+}
+
+.body {
+    background-color: #9A3853;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunas {
+    display: flex;
+    gap: 250px;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    /* display: block; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.John {
+    margin-left: 88vw;
+}
+
+.Palavras {
+    padding: 20px;
+}
+
+.dialogo {
+    padding: 20px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    height: 300px;
+    width: 500px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+.conversa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.frase {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 30px;
+    width: 20vw;
+    border-radius: 7px;
+    height: 6vh;
+}
+
+.a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto-dois {
+    justify-self: end;
+    align-self: flex-end;
+    background-color: #D9D9D9;
+
+}
+
+.texto-um {
+    text-align: center;
+    background-color: #D9D9D9;
+
+}
+
+.sigma {
+    display: flex;
+    background-color: #D9D9D9;
+}
+
+
+.section2.hover {
+    transition: 100ms;
+    transform: scale(1.04);
+}
+
+#modal {
+    height: 50vh;
+    width: 30vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(244, 244, 244);
+    border: solid 1px;
+    border-radius: 8px;
+    flex-direction: column;
+    display: none;
+    border: none;
+    padding: 20px;
+    z-index: 3;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    background-color: rgba(27, 27, 27, 0.5);
+}
+
+
+.falas {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+#botao {
+    display: flex;
+    padding: 2px;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+#a1 {
+    display: none;
+}
+
+#p1{
+    font-size: x-small;
+    text-align: center;
+}
+#p2{
+    font-size: x-small;
+    text-align: center;
+}
+#p3{
+    font-size: x-small;
+    text-align: center;
+}
+#p4{
+    font-size: x-small;
+    text-align: center;
+}
+.s2{
+    height: 460px;
+    width: 1000px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    gap: 50px;
+    margin-left: 100px;
+    margin-top: 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#audiobut1{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut2{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut3{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut4{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut5{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut6{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut7{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut8{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut9{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
+
+#audiobut10{
+    display: none;
+    height: 20px;
+    width: 20px;
+    border: solid 1px black;
+    margin-right: 215px;
+    background-color: white;
+}
